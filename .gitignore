@@ -1,0 +1,60 @@
+# ===============================
+# Node Modules Folder
+# Contains installed packages
+# No need to upload to GitHub
+# ===============================
+node_modules/
+
+# ===============================
+# Environment Variables
+# Contains secrets like:
+# Mongo URI
+# JWT Secret
+# API Keys
+# Never upload
+# ===============================
+.env
+
+# ===============================
+# Logs
+# ===============================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# Runtime files
+# ===============================
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ===============================
+# OS generated files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE / Editor files
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# Temporary files
+# ===============================
+tmp/
+temp/
+
+# ===============================
+# Coverage reports
+# ===============================
+coverage/
+
+# ===============================
+# Optional build folder
+# ===============================
+dist/
+build/
